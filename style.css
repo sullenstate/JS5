@@ -1,0 +1,49 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ccc;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	background-color: white;
+	width: 70%;
+	height: 200px;
+	padding: 1em;
+	border: 1px solid black;
+}
+
+textarea {
+	margin: 16px;
+	width: 90%;
+	height: 90%;
+}
+
+.button {
+	position: absolute;
+	display: inline-block;
+	float: left;
+	padding: 0 .5em;
+	background-color: #ccc;
+	border: 1px solid black;
+	bottom: 10px;
+}
+
+.button:hover {
+	background-color: #888;
+	color: white;
+}
+
+.buttonYes {
+	right: 91px;
+}
+
+.buttonNo {
+	right: 25px;
+}
