@@ -17,6 +17,7 @@ body {
 	height: 200px;
 	padding: 1em;
 	border: 1px solid black;
+	margin-bottom: 20px;
 }
 
 textarea {
